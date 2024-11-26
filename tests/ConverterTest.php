@@ -57,7 +57,7 @@ class ConverterTest extends TestCase
         $converterStub->convert($parameters);
     }
 
-    public function converterProvider()
+    public static function converterProvider()
     {
         $command = 'libreoffice --headless --invisible --nocrashreport --nodefault --nofirststartwizard --nologo --norestore ';
         return [
